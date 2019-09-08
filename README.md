@@ -7,5 +7,5 @@ For the blog updates on computer vision you can follow my blog on https://circui
 Thank you :)
 
 The code is breaked into various tutorials
-1. opening and saving the images
+1. opening and saving images in opencv
 2. Grayscaling the images
