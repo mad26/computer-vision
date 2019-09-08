@@ -1,0 +1,7 @@
+import cv2 #Import opencv in python by command
+import numpy as np #importing numpy library
+image=cv2.imread('input.jpg') #Load an image using ‘imread’ specifying the path to the image
+cv2.imshow('hello_world', image) #To show the image we use imshow function, the first parameter is the title showed on top of image window
+#written as a string, while the second parameter is the readed image using imrread function
+cv2.waitKey() #waitkey allows to input information when image is open, by leaving it blank it just waits for any key to be pressed to close it
+cv2.destroyAllWindows() #'destroyAllWindows’ closes all the open windows, failure to place this will cause your programme to hang.
